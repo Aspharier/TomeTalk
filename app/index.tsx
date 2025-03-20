@@ -1,6 +1,5 @@
 import { View, TouchableOpacity, Text } from "react-native";
 import React from "react";
-import { Link } from "expo-router";
 
 export default function Index() {
   return (
@@ -10,8 +9,6 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
-    >
-      <Link href="/animation">AnimationScreen</Link>
-    </View>
+    ></View>
   );
 }
